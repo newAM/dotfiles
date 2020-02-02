@@ -6,7 +6,7 @@
 
 ## Setup
 ```
-mkdir ~/.vim
+sudo apt install python3-venv
 ```
 
 ### Spellcheck
@@ -23,4 +23,10 @@ Temporarily disable:
 ```
 :set nospell
 ```
+
+## Plugins
+[vim-plug](https://github.com/junegunn/vim-plug)
+
+## Autoformat
+[black](https://github.com/psf/black) for python
 
