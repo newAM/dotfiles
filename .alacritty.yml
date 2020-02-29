@@ -1,4 +1,11 @@
 font:
   normal:
     family: Source Code Pro for Powerline
-    style: Regular
+    style: Semibold
+  size: 12.0
+
+window:
+  dynamic_padding: true
+
+live_config_reload: true
+
