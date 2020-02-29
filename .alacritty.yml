@@ -20,6 +20,7 @@ mouse_bindings:
 colors:
   primary:
     background: '0x262626'
+    foreground: '0xcbbfbf'
 
   # Normal colors
   normal:
