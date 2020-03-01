@@ -30,3 +30,10 @@ Temporarily disable:
 ## Autoformat
 [black](https://github.com/psf/black) for python
 
+
+## Pasting
+```
+:set paste
+:set nopaste
+```
+

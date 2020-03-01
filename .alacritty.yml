@@ -12,6 +12,9 @@ window:
 
   live_config_reload: true
 
+selection:
+  save_to_clipboard: true
+
 mouse_bindings:
   - { mouse: Right, action: PasteSelection }
 
