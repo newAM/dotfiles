@@ -24,24 +24,35 @@ autocmd BufWritePre *.py execute ':Black'
 
 call plug#begin('~/.vim/plugged')
 
+" :PlugInstall
+
 Plug 'psf/black'
 Plug 'vim-syntastic/syntastic'
 Plug 'crusoexia/vim-monokai'
+Plug 'rust-lang/rust.vim'
+Plug 'vim-airline/vim-airline'
 
 call plug#end()
+
+" enable powerline fonts
+let g:airline_powerline_fonts = 1
+let g:airline_highlighting_cache = 1
 
 " syntastic settings
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
+let g:syntastic_always_populate_loc_list = 0
+let g:syntastic_auto_loc_list = 0
+let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
 let g:syntastic_python_checkers = ['flake8']
 let g:syntastic_cpp_checkers = ['cpplint']
 let g:syntastic_cpp_cpplint_exec = 'cpplint'
 let g:syntastic_cpp_cpplint_args = "--filter=-legal"
+
+" rust
+let g:rustfmt_autosave = 1
 
 " theme
 colorscheme monokai
