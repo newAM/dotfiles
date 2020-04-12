@@ -18,6 +18,9 @@ selection:
 mouse_bindings:
   - { mouse: Right, action: PasteSelection }
 
+key_bindings:
+  - { key: V, mods: Control|Shift, action: Paste }
+
 # GNOME Terminal Tango Dark
 # Match-dark-aliz primary colors
 colors:
