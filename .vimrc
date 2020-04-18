@@ -1,6 +1,7 @@
 " spell check
 set spell spelllang=en_ca
 set spellfile=~/.vim/spell/en.utf-8.add
+set nospell
 
 " display tabs
 set list
