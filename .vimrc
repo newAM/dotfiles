@@ -33,6 +33,7 @@ Plug 'rust-lang/rust.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'ycm-core/YouCompleteMe'
 Plug 'preservim/nerdtree'
+Plug 'sheerun/vim-polyglot'
 
 call plug#end()
 
