@@ -32,8 +32,12 @@ Plug 'crusoexia/vim-monokai'
 Plug 'rust-lang/rust.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'ycm-core/YouCompleteMe'
+Plug 'preservim/nerdtree'
 
 call plug#end()
+
+" bindings
+map <C-n> :NERDTreeToggle<CR>
 
 " enable powerline fonts
 let g:airline_powerline_fonts = 1
