@@ -62,5 +62,5 @@ let g:syntastic_cpp_cpplint_args = "--filter=-legal"
 let g:rustfmt_autosave = 1
 
 " theme
-colorscheme monokai
+silent! colorscheme monokai
 
