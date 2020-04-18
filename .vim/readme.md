@@ -5,8 +5,17 @@
 ## Configuration
 
 ## Setup
+For various python tools.
+```bash
+sudo apt install python3-venv python3-dev
 ```
-sudo apt install python3-venv
+
+### YouCompleteMe
+See [yvm-core/YouCompleteMe](https://github.com/ycm-core/YouCompleteMe#linux-64-bit).
+
+```bash
+cd ~/.vim/plugged/YouCompleteMe
+python3 install.py --rust-completer --clang-completer 
 ```
 
 ### Spellcheck
