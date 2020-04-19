@@ -1,8 +1,3 @@
-" spell check
-set spell spelllang=en_ca
-set spellfile=~/.vim/spell/en.utf-8.add
-set nospell
-
 " display tabs
 set list
 set listchars=tab:>-
@@ -67,3 +62,9 @@ let g:ycm_autoclose_preview_window_after_insertion = 1
 " theme
 silent! colorscheme monokai
 
+" spell check
+set spell spelllang=en_ca
+set spellfile=~/.vim/spell/en.utf-8.add
+highlight clear SpellBad
+highlight SpellBad cterm=underline
+highlight SpellBad gui=undercurl
