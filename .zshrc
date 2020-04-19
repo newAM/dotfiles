@@ -106,6 +106,7 @@ ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=8192
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ccat='pygmentize -g'
+alias greprs='grep --exclude-dir target/'
 alias config='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 setopt complete_aliases
 

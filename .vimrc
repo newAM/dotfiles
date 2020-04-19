@@ -61,6 +61,9 @@ let g:syntastic_cpp_cpplint_args = "--filter=-legal"
 " rust
 let g:rustfmt_autosave = 1
 
+" YouCompleteMe settings
+let g:ycm_autoclose_preview_window_after_insertion = 1
+
 " theme
 silent! colorscheme monokai
 
