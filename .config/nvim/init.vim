@@ -18,7 +18,7 @@ autocmd FileType yaml setlocal shiftwidth=2 tabstop=2 expandtab
 
 autocmd BufWritePre *.py execute ':Black'
 
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.config/nvim/plugged')
 
 " :PlugInstall
 
