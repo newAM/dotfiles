@@ -62,7 +62,10 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting bgnotify zsh-autosuggestions)
+plugins=(git tmux zsh-syntax-highlighting bgnotify zsh-autosuggestions)
+
+ZSH_TMUX_AUTOSTART=true
+ZSH_TMUX_AUTOQUIT=true
 
 source $ZSH/oh-my-zsh.sh
 
@@ -88,11 +91,11 @@ ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=8192
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+if [[ -n $SSH_CONNECTION ]]; then
+   export EDITOR='nvim'
+else
+   export EDITOR='nvim'
+fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -110,7 +113,4 @@ alias greprs='grep --exclude-dir target/'
 alias config='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 setopt complete_aliases
 
-# Set Spaceship ZSH as a prompt
-#autoload -U promptinit; promptinit
-#prompt spaceship
 
