@@ -109,6 +109,8 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias v='nvim'
+alias vi='nvim'
+alias vim='nvim'
 alias ccat='pygmentize -g'
 alias greprs='grep --exclude-dir target/'
 alias config='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'

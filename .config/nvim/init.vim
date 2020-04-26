@@ -35,6 +35,7 @@ call plug#end()
 
 " bindings
 map <C-n> :NERDTreeToggle<CR>
+map <C-l> :set invnumber<CR>
 
 " enable powerline fonts
 let g:airline_powerline_fonts = 1
@@ -64,7 +65,7 @@ silent! colorscheme monokai
 
 " spell check
 set spell spelllang=en_ca
-set spellfile=~/.vim/spell/en.utf-8.add
+set spellfile=~/.config/nvim/spell/en.utf-8.add
 highlight clear SpellBad
 highlight SpellBad cterm=underline
 highlight SpellBad gui=undercurl
