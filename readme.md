@@ -50,6 +50,7 @@ config push
 | dcstop    | `docker-compose stop`          |
 | dcup      | `docker-compose up`            |
 | dcupd     | `docker-compose up -d`         |
+| g         | `git`                          |
 | v         | `nvim`                         |
 | vrc       | `nvim ~/.config/nvim/init.vim` |
 | vzrc      | `nvim ~/.zshrc`                |
