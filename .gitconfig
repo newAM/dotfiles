@@ -1,0 +1,11 @@
+[user]
+  name = Alex M.
+  email = 7845120+newAM@users.noreply.github.com
+[alias]
+  a = add
+  co = checkout
+  ci = commit
+  s = status
+  st = status
+  br = branch
+  rph = rev-parse HEAD
