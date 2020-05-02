@@ -15,22 +15,21 @@ set number
 filetype on
 autocmd FileType markdown setlocal shiftwidth=2 tabstop=2 expandtab
 autocmd FileType yaml setlocal shiftwidth=2 tabstop=2 expandtab
-
 autocmd BufWritePre *.py execute ':Black'
 
 call plug#begin('~/.config/nvim/plugged')
 
 " :PlugInstall
 
-Plug 'psf/black'
-Plug 'vim-syntastic/syntastic'
-Plug 'crusoexia/vim-monokai'
-Plug 'rust-lang/rust.vim'
-Plug 'vim-airline/vim-airline'
-Plug 'ycm-core/YouCompleteMe'
-Plug 'preservim/nerdtree'
-Plug 'sheerun/vim-polyglot'
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'crusoexia/vim-monokai'
+Plug 'preservim/nerdtree'
+Plug 'psf/black'
+Plug 'rust-lang/rust.vim'
+Plug 'sheerun/vim-polyglot'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-syntastic/syntastic'
+Plug 'ycm-core/YouCompleteMe'
 
 call plug#end()
 
@@ -71,5 +70,8 @@ silent! colorscheme monokai
 set spell spelllang=en_ca
 set spellfile=~/.config/nvim/spell/en.utf-8.add
 highlight clear SpellBad
+highlight clear SpellCap
+highlight clear SpellLocal
+highlight clear SpellRare
 highlight SpellBad cterm=underline
 highlight SpellBad gui=undercurl
