@@ -18,7 +18,7 @@ rm --recursive dotfiles-tmp
 ## Configuration
 ```bash
 config config status.showUntrackedFiles no
-config remote set-url origin git@github.com:newAM/my-dotfiles.git
+config remote set-url origin git@github.com:newAM/dotfiles.git
 ```
 
 ## Usage
