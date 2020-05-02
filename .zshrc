@@ -109,6 +109,7 @@ export EDITOR='nvim'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias v='nvim'
+alias vrc='nvim $HOME/.config/nvim/init.vim'
 alias vi='nvim'
 alias vim='nvim'
 alias ccat='pygmentize -g'

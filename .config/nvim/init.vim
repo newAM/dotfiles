@@ -30,12 +30,16 @@ Plug 'vim-airline/vim-airline'
 Plug 'ycm-core/YouCompleteMe'
 Plug 'preservim/nerdtree'
 Plug 'sheerun/vim-polyglot'
+Plug 'christoomey/vim-tmux-navigator'
 
 call plug#end()
 
 " bindings
 map <C-n> :NERDTreeToggle<CR>
-map <C-l> :set invnumber<CR>
+map <C-p> :set invnumber<CR>
+
+" nvim settings
+let g:python3_host_prog = '/usr/bin/python3.8'
 
 " enable powerline fonts
 let g:airline_powerline_fonts = 1

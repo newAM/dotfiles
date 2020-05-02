@@ -32,25 +32,26 @@ config push
 ## Cheatsheet
 
 ## Aliases
-| Alias     | Command                  |
-|-----------|--------------------------|
-| ccat      | `pygemtize -g`           |
-| dcb       | `docker-compose build`   |
-| dcdn      | `docker-compose down`    |
-| dce       | `docker-compose exec`    |
-| dcl       | `docker-compose logs`    |
-| dclf      | `docker-compose logs -f` |
-| dco       | `docker-compose`         |
-| dcps      | `docker-compose ps`      |
-| dcpull    | `docker-compose pull`    |
-| dcr       | `docker-compose run`     |
-| dcrestart | `docker-compose restart` |
-| dcrm      | `docker-compose rm`      |
-| dcstart   | `docker-compose start`   |
-| dcstop    | `docker-compose stop`    |
-| dcup      | `docker-compose up`      |
-| dcupd     | `docker-compose up -d`   |
-| v         | `nvim`                   |
+| Alias     | Command                        |
+|-----------|--------------------------------|
+| ccat      | `pygemtize -g`                 |
+| dcb       | `docker-compose build`         |
+| dcdn      | `docker-compose down`          |
+| dce       | `docker-compose exec`          |
+| dcl       | `docker-compose logs`          |
+| dclf      | `docker-compose logs -f`       |
+| dco       | `docker-compose`               |
+| dcps      | `docker-compose ps`            |
+| dcpull    | `docker-compose pull`          |
+| dcr       | `docker-compose run`           |
+| dcrestart | `docker-compose restart`       |
+| dcrm      | `docker-compose rm`            |
+| dcstart   | `docker-compose start`         |
+| dcstop    | `docker-compose stop`          |
+| dcup      | `docker-compose up`            |
+| dcupd     | `docker-compose up -d`         |
+| v         | `nvim`                         |
+| vrc       | `nvim ~/.config/nvim/init.vim` |
 
 ### tmux
 * New session: `tmux new -s session_name`
