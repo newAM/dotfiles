@@ -24,7 +24,7 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'crusoexia/vim-monokai'
 Plug 'preservim/nerdtree'
-Plug 'psf/black'
+Plug 'psf/black', { 'tag': '19.10b0' }
 Plug 'rust-lang/rust.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'vim-airline/vim-airline'
