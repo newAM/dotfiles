@@ -59,6 +59,8 @@ plugins=(git tmux zsh-syntax-highlighting bgnotify zsh-autosuggestions)
 
 # start tmux is local sessions
 if [[ -n $SSH_CONNECTION ]]; then
+    ZSH_TMUX_AUTOSTART=false
+else
     ZSH_TMUX_AUTOSTART=true
 fi
 
