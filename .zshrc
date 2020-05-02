@@ -56,12 +56,14 @@ HIST_STAMPS="yyyy-mm-dd"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+    bgnotify
+    docker-compose
+    fzf
     git
     tmux
-    docker-compose
-    zsh-syntax-highlighting
-    bgnotify
     zsh-autosuggestions
+    zsh-interactive-cd
+    zsh-syntax-highlighting
 )
 
 # start tmux is local sessions
