@@ -3,11 +3,12 @@
   email = 7845120+newAM@users.noreply.github.com
 [alias]
   a = add
+  br = branch
+  c = commit
   co = checkout
-  ci = commit
+  p = push
+  rph = rev-parse HEAD
   s = status
   st = status
-  br = branch
-  rph = rev-parse HEAD
 [core]
   editor = nvim
