@@ -52,6 +52,7 @@ config push
 | dcupd     | `docker-compose up -d`         |
 | v         | `nvim`                         |
 | vrc       | `nvim ~/.config/nvim/init.vim` |
+| vzrc      | `nvim ~/.zshrc`                |
 
 ### tmux
 * New session: `tmux new -s session_name`
