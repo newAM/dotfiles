@@ -55,7 +55,14 @@ HIST_STAMPS="yyyy-mm-dd"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git tmux zsh-syntax-highlighting bgnotify zsh-autosuggestions)
+plugins=(
+    git
+    tmux
+    docker-compose
+    zsh-syntax-highlighting
+    bgnotify
+    zsh-autosuggestions
+)
 
 # start tmux is local sessions
 if [[ -n $SSH_CONNECTION ]]; then
@@ -88,11 +95,7 @@ ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=8192
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-if [[ -n $SSH_CONNECTION ]]; then
-   export EDITOR='nvim'
-else
-   export EDITOR='nvim'
-fi
+export EDITOR='nvim'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"

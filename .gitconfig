@@ -9,3 +9,5 @@
   st = status
   br = branch
   rph = rev-parse HEAD
+[core]
+  editor = nvim

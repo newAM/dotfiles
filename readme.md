@@ -31,6 +31,27 @@ config push
 
 ## Cheatsheet
 
+## Aliases
+| Alias     | Command                  |
+|-----------|--------------------------|
+| ccat      | `pygemtize -g`           |
+| dcb       | `docker-compose build`   |
+| dcdn      | `docker-compose down`    |
+| dce       | `docker-compose exec`    |
+| dcl       | `docker-compose logs`    |
+| dclf      | `docker-compose logs -f` |
+| dco       | `docker-compose`         |
+| dcps      | `docker-compose ps`      |
+| dcpull    | `docker-compose pull`    |
+| dcr       | `docker-compose run`     |
+| dcrestart | `docker-compose restart` |
+| dcrm      | `docker-compose rm`      |
+| dcstart   | `docker-compose start`   |
+| dcstop    | `docker-compose stop`    |
+| dcup      | `docker-compose up`      |
+| dcupd     | `docker-compose up -d`   |
+| v         | `nvim`                   |
+
 ### tmux
 * New session: `tmux new -s session_name`
 * List sessions: `tmux ls`
@@ -49,20 +70,4 @@ config push
 * `o` next pane
 * `;` toggle pane
 * `x` close pane
-
-### tmux copy paste
-
-(if using vim)
-```
-:set nu!
-:set nu
-:set paste
-:set nopaste
-```
-
-`Ctrl+b` and `[`
-`Ctrl+space`
-Arrow keys make selection
-`Ctrl+w`
-`Ctrl+b` and `]`
-
+* `r` reload tmux.conf
