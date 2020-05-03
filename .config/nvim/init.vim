@@ -15,6 +15,7 @@ set number
 filetype on
 autocmd FileType markdown setlocal shiftwidth=2 tabstop=2 expandtab
 autocmd FileType yaml setlocal shiftwidth=2 tabstop=2 expandtab
+autocmd FileType json setlocal nospell
 autocmd BufWritePre *.py execute ':Black'
 
 call plug#begin('~/.config/nvim/plugged')
