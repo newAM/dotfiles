@@ -117,3 +117,6 @@ alias vim='nvim'
 alias vrc='nvim $HOME/.config/nvim/init.vim'
 alias vzrc='nvim $HOME/.zshrc'
 setopt complete_aliases
+
+# hide prompt on locally
+prompt_context(){}
