@@ -74,3 +74,16 @@ config push
 * `;` toggle pane
 * `x` close pane
 * `r` reload tmux.conf
+
+## VNC
+Server
+```bash
+sudo apt install tigervnc-standalone-server tigervnc-xorg-extension
+vncserver -SecurityTypes None
+```
+
+Client
+```bash
+sudo apt install tigervnc-viewer
+ssh -L 5901:localhost:5901 hostnameofserverwithvnc
+```
