@@ -1,0 +1,24 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "f9",
+        "command": "-editor.debug.action.toggleBreakpoint",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "f9",
+        "command": "editor.action.sortLinesAscending"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.focusPreviousGroup"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "workbench.action.focusNextGroup"
+    },
+]

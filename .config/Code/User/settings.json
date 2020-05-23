@@ -1,0 +1,28 @@
+{
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.pythonPath": "/usr/bin/python3.8",
+    "python.formatting.provider": "black",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "window.zoomLevel": 0,
+    "editor.rulers": [
+        80
+    ],
+    "files.autoSave": "onFocusChange",
+    "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+    "terminal.integrated.fontWeight": "600",
+    "[json]": {
+        "editor.formatOnSave": true,
+    },
+    "[python]": {
+        "editor.tabSize": 4,
+        "editor.rulers": [
+            79,
+            88
+        ],
+        "editor.formatOnSave": true
+    }
+}
