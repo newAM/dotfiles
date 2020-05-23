@@ -10,15 +10,15 @@
         "command": "editor.action.sortLinesAscending"
     },
     {
-        "key": "ctrl+n",
+        "key": "alt+n",
         "command": "workbench.action.toggleSidebarVisibility"
     },
     {
         "key": "ctrl+l",
-        "command": "workbench.action.focusPreviousGroup"
+        "command": "workbench.action.focusNextGroup"
     },
     {
         "key": "ctrl+h",
-        "command": "workbench.action.focusNextGroup"
+        "command": "workbench.action.focusPreviousGroup"
     },
-]
+]z

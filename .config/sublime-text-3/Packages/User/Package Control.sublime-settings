@@ -1,0 +1,19 @@
+{
+    "installed_packages":
+    [
+        "CMake",
+        "LinkerScript",
+        "OpenScad",
+        "Package Control",
+        "RestructuredText Improved",
+        "RustFormat",
+        "SideBarEnhancements",
+        "sublack",
+        "SublimeLinter",
+        "SublimeLinter-contrib-yamllint",
+        "SublimeLinter-flake8",
+        "TabsExtra",
+        "Terminus",
+        "TOML"
+    ]
+}
