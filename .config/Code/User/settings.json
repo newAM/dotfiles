@@ -25,5 +25,10 @@
         ],
         "editor.formatOnSave": true
     },
-    "terminal.integrated.shell.linux": "/usr/bin/zsh"
+    "workbench.colorTheme": "Monokai Pro",
+    "workbench.iconTheme": "Monokai Pro Icons",
+    "terminal.integrated.shell.linux": "/usr/bin/zsh",
+    "terminal.integrated.env.linux": {
+        "SSH_CONNECTION": "1",
+    }
 }

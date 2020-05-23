@@ -61,10 +61,14 @@ config push
 ### tmux commands
 `Ctrl+b` and:
 
-* `c` new window
-* `w` choose window from list
-* `0` switch to windows 0
-* `,` rename current window
+* `c` create window
+* `w` list windows
+* `n` next window
+* `p` previous window
+* `f` find window
+* `,`  name window
+* `&`  kill window
+
 * `d` detach
 * `%` split horizontally
 * `"` split vertically
@@ -86,13 +90,12 @@ sudo apt install tigervnc-viewer
 ssh -L 5901:localhost:5901 hostnameofserverwithvnc
 ```
 
-## Visual Studio Code
-
-### Keybindings
+## Visual Studio Code Keybindings
 
 * `ctrl+b` Toggle sidebar
 * `ctrl+~` Toggle terminal
 
+* `f9` sort lines ascending
 * `ctrl+shift+l` select line
 * `ctrl+k` navigate up
 * `ctrl+j` navigate down
