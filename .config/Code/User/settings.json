@@ -14,8 +14,11 @@
     "files.autoSave": "onFocusChange",
     "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
     "terminal.integrated.fontWeight": "600",
+    "[jsonc]": {
+        "editor.formatOnSave": true
+    },
     "[json]": {
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": true
     },
     "[python]": {
         "editor.tabSize": 4,
@@ -29,8 +32,9 @@
     "workbench.iconTheme": "Monokai Pro Icons",
     "terminal.integrated.shell.linux": "/usr/bin/zsh",
     "terminal.integrated.env.linux": {
-        "SSH_CONNECTION": "1",
+        "SSH_CONNECTION": "1"
     },
+    "terminal.integrated.copyOnSelection": true,
     "workbench.colorCustomizations": {
         "terminal.forground": "#cbbfbf",
         "terminal.background": "#262626",
@@ -49,6 +53,6 @@
         "terminal.ansiBrightBlue": "#729fcf",
         "terminal.ansiBrightMagenta": "#ad7fa8",
         "terminal.ansiBrightCyan": "#34e2e2",
-        "terminal.ansiBrightWhite": "#eeeeec"    
+        "terminal.ansiBrightWhite": "#eeeeec"
     }
 }

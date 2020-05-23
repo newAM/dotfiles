@@ -95,6 +95,7 @@ ssh -L 5901:localhost:5901 hostnameofserverwithvnc
 * `ctrl+b` Toggle sidebar
 * `ctrl+~` Toggle terminal
 
+* `ctrl+shift+y` toggle panel maximize
 * `f9` sort lines ascending
 * `ctrl+shift+l` select line
 * `ctrl+k` navigate up

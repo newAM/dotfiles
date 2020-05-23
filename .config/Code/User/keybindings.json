@@ -37,5 +37,9 @@
         "key": "ctrl+l",
         "command": "workbench.action.nextPanelView",
         "when": "panelFocus"
+    },
+    {
+        "key": "ctrl+shift+y",
+        "command": "workbench.action.toggleMaximizedPanel"
     }
 ]
