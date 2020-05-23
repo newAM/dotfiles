@@ -29,8 +29,6 @@ config commit -m "Added a thing."
 config push
 ```
 
-## Cheatsheet
-
 ## Aliases
 | Alias     | Command                        |
 |-----------|--------------------------------|
@@ -55,12 +53,12 @@ config push
 | vrc       | `nvim ~/.config/nvim/init.vim` |
 | vzrc      | `nvim ~/.zshrc`                |
 
-### tmux
+## tmux
 * New session: `tmux new -s session_name`
 * List sessions: `tmux ls`
 * Reattach: `tmux attach-session -t 0`
 
-#### tmux commands
+### tmux commands
 `Ctrl+b` and:
 
 * `c` new window
@@ -76,14 +74,27 @@ config push
 * `r` reload tmux.conf
 
 ## VNC
-Server
+### VNC Server
 ```bash
 sudo apt install tigervnc-standalone-server tigervnc-xorg-extension
 vncserver -SecurityTypes None
 ```
 
-Client
+### VNC Client
 ```bash
 sudo apt install tigervnc-viewer
 ssh -L 5901:localhost:5901 hostnameofserverwithvnc
 ```
+
+## Visual Studio Code
+
+### Keybindings
+
+* `ctrl+b` Toggle sidebar
+* `ctrl+~` Toggle terminal
+
+* `ctrl+shift+l` select line
+* `ctrl+k` navigate up
+* `ctrl+j` navigate down
+* `ctrl+h` navigate left
+* `ctrl+l` navigate right

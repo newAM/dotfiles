@@ -24,5 +24,6 @@
             88
         ],
         "editor.formatOnSave": true
-    }
+    },
+    "terminal.integrated.shell.linux": "/usr/bin/zsh"
 }
