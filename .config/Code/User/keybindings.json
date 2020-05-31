@@ -42,4 +42,8 @@
         "key": "ctrl+shift+y",
         "command": "workbench.action.toggleMaximizedPanel"
     }
+    {
+        "key": "ctrl+r",
+        "command": "editor.action.startFindReplaceAction"
+    }
 ]

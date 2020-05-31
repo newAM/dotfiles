@@ -17,6 +17,9 @@
     "[jsonc]": {
         "editor.formatOnSave": true
     },
+    "[rust]": {
+        "editor.formatOnSave": true
+    },
     "[json]": {
         "editor.formatOnSave": true
     },
@@ -54,5 +57,6 @@
         "terminal.ansiBrightMagenta": "#ad7fa8",
         "terminal.ansiBrightCyan": "#34e2e2",
         "terminal.ansiBrightWhite": "#eeeeec"
-    }
+    },
+    "rust-analyzer.inlayHints.enable": false
 }
