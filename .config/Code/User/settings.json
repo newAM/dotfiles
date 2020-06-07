@@ -58,5 +58,9 @@
         "terminal.ansiBrightCyan": "#34e2e2",
         "terminal.ansiBrightWhite": "#eeeeec"
     },
-    "rust-analyzer.inlayHints.enable": false
+    "rust-analyzer.inlayHints.enable": false,
+    "rust-analyzer.lens.implementations": false,
+    "python.linting.flake8Args": [
+        "--ignore=E203,W503"
+    ]
 }
