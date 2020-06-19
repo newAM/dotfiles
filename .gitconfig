@@ -11,5 +11,6 @@
   rph = rev-parse HEAD
   s = status
   st = status
+  ptag = push origin --tags
 [core]
   editor = nvim
