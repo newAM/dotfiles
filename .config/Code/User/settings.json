@@ -62,5 +62,6 @@
     "rust-analyzer.lens.implementations": false,
     "python.linting.flake8Args": [
         "--ignore=E203,W503"
-    ]
+    ],
+    "rust-analyzer.lens.enable": false
 }
