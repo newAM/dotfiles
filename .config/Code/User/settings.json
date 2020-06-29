@@ -31,6 +31,9 @@
         ],
         "editor.formatOnSave": true
     },
+    "[yaml]": {
+        "editor.tabSize": 2
+    },
     "workbench.colorTheme": "Monokai Pro",
     "workbench.iconTheme": "Monokai Pro Icons",
     "terminal.integrated.shell.linux": "/usr/bin/zsh",
