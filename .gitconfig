@@ -13,5 +13,6 @@
   st = status
   pt = push origin --tags
   ptag = push origin --tags
+  ds = diff --staged
 [core]
   editor = nvim
