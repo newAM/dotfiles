@@ -14,5 +14,6 @@
   pt = push origin --tags
   ptag = push origin --tags
   ds = diff --staged
+  fop = fetch origin --prune
 [core]
   editor = nvim
