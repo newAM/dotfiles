@@ -66,5 +66,8 @@
     "python.linting.flake8Args": [
         "--ignore=E203,W503"
     ],
-    "rust-analyzer.lens.enable": false
+    "rust-analyzer.lens.enable": false,
+    "rust-analyzer.inlayHints.parameterHints": false,
+    "rust-analyzer.lens.debug": false,
+    "rust-analyzer.inlayHints.chainingHints": false
 }
