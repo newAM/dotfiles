@@ -1,73 +1,71 @@
 {
-    "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false,
-    "python.linting.pylintEnabled": false,
-    "python.linting.flake8Enabled": true,
-    "python.linting.enabled": true,
-    "python.pythonPath": "/usr/bin/python3.8",
-    "python.formatting.provider": "black",
-    "editor.multiCursorModifier": "ctrlCmd",
-    "window.zoomLevel": 0,
-    "editor.rulers": [
-        80
-    ],
-    "files.autoSave": "onFocusChange",
-    "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
-    "terminal.integrated.fontWeight": "600",
-    "[jsonc]": {
-        "editor.formatOnSave": true
-    },
-    "[rust]": {
-        "editor.formatOnSave": true
-    },
-    "[json]": {
-        "editor.formatOnSave": true
-    },
-    "[python]": {
-        "editor.tabSize": 4,
-        "editor.rulers": [
-            79,
-            88
-        ],
-        "editor.formatOnSave": true
-    },
-    "[yaml]": {
-        "editor.tabSize": 2
-    },
-    "workbench.colorTheme": "Monokai Pro",
-    "workbench.iconTheme": "Monokai Pro Icons",
-    "terminal.integrated.shell.linux": "/usr/bin/zsh",
-    "terminal.integrated.env.linux": {
-        "SSH_CONNECTION": "1"
-    },
-    "terminal.integrated.copyOnSelection": true,
-    "workbench.colorCustomizations": {
-        "terminal.forground": "#cbbfbf",
-        "terminal.background": "#262626",
-        "terminal.ansiBlack": "#2e3436",
-        "terminal.ansiRed": "#cc0000",
-        "terminal.ansiGreen": "#4e9a06",
-        "terminal.ansiYellow": "#c4a000",
-        "terminal.ansiBlue": "#3465a4",
-        "terminal.ansiMagenta": "#75507b",
-        "terminal.ansiCyan": "#06989a",
-        "terminal.ansiWhite": "#d3d7cf",
-        "terminal.ansiBrightBlack": "#555753",
-        "terminal.ansiBrightRed": "#ef2929",
-        "terminal.ansiBrightGreen": "#8ae234",
-        "terminal.ansiBrightYellow": "#fce94f",
-        "terminal.ansiBrightBlue": "#729fcf",
-        "terminal.ansiBrightMagenta": "#ad7fa8",
-        "terminal.ansiBrightCyan": "#34e2e2",
-        "terminal.ansiBrightWhite": "#eeeeec"
-    },
-    "rust-analyzer.inlayHints.enable": false,
-    "rust-analyzer.lens.implementations": false,
-    "python.linting.flake8Args": [
-        "--ignore=E203,W503"
-    ],
-    "rust-analyzer.lens.enable": false,
-    "rust-analyzer.inlayHints.parameterHints": false,
-    "rust-analyzer.lens.debug": false,
-    "rust-analyzer.inlayHints.chainingHints": false
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.enabled": true,
+  "python.pythonPath": "/usr/bin/python3.8",
+  "python.formatting.provider": "black",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "window.zoomLevel": 0,
+  "editor.rulers": [80],
+  "files.autoSave": "onFocusChange",
+  "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+  "terminal.integrated.fontWeight": "600",
+  "[jsonc]": {
+    "editor.formatOnSave": true
+  },
+  "[rust]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "matklad.rust-analyzer"
+  },
+  "[json]": {
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.rulers": [79, 88],
+    "editor.formatOnSave": true
+  },
+  "[yaml]": {
+    "editor.tabSize": 2
+  },
+  "workbench.colorTheme": "Monokai Pro",
+  "workbench.iconTheme": "Monokai Pro Icons",
+  "terminal.integrated.shell.linux": "/usr/bin/zsh",
+  "terminal.integrated.env.linux": {
+    "SSH_CONNECTION": "1"
+  },
+  "terminal.integrated.copyOnSelection": true,
+  "workbench.colorCustomizations": {
+    "terminal.forground": "#cbbfbf",
+    "terminal.background": "#262626",
+    "terminal.ansiBlack": "#2e3436",
+    "terminal.ansiRed": "#cc0000",
+    "terminal.ansiGreen": "#4e9a06",
+    "terminal.ansiYellow": "#c4a000",
+    "terminal.ansiBlue": "#3465a4",
+    "terminal.ansiMagenta": "#75507b",
+    "terminal.ansiCyan": "#06989a",
+    "terminal.ansiWhite": "#d3d7cf",
+    "terminal.ansiBrightBlack": "#555753",
+    "terminal.ansiBrightRed": "#ef2929",
+    "terminal.ansiBrightGreen": "#8ae234",
+    "terminal.ansiBrightYellow": "#fce94f",
+    "terminal.ansiBrightBlue": "#729fcf",
+    "terminal.ansiBrightMagenta": "#ad7fa8",
+    "terminal.ansiBrightCyan": "#34e2e2",
+    "terminal.ansiBrightWhite": "#eeeeec"
+  },
+  "rust-analyzer.inlayHints.enable": false,
+  "rust-analyzer.lens.implementations": false,
+  "python.linting.flake8Args": ["--ignore=E203,W503"],
+  "rust-analyzer.lens.enable": false,
+  "rust-analyzer.inlayHints.parameterHints": false,
+  "rust-analyzer.lens.debug": false,
+  "rust-analyzer.inlayHints.chainingHints": false
 }
