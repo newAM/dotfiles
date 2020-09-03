@@ -102,7 +102,6 @@ export EDITOR='nvim'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
-fpath=("$HOME/.oh-my-zsh/custom/comp" $fpath)
 autoload -U compinit
 compinit
 
