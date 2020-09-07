@@ -1,48 +1,44 @@
 {
-	"main": {
-		"prefix": [
-			"if"
-		],
-		"body": [
-			"def main():",
-			"    pass",
-			"",
-			"",
-			"if __name__ == \"__main__\":",
-			"    main()",
-			"",
-		]
-	},
-	"asyncio main": {
-		"prefix": [
-			"if"
-		],
-		"body": [
-			"import asyncio",
-			"import argparse",
-			"import sys",
-			"",
-			"",
-			"def get_parser() -> argparse.ArgumentParser:",
-			"    parser = argparse.ArgumentParser(description=\"TODO\")",
-			"    return parser",
-			"",
-			"",
-			"async def main(args: argparse.Namespace) -> int:",
-			"    return 0",
-			"",
-			"",
-			"if __name__ == \"__main__\":",
-			"    sys.exit(asyncio.run(main(get_parser().parse_args())))",
-			"",
-		]
-	},
-	"pytest parametrize": {
-		"prefix": [
-			"@pytest.mark"
-		],
-		"body": [
-			"@pytest.mark.parametrize(\"a, b\", [(1, 2)])"
-		]
-	}
+  "main": {
+    "prefix": ["if"],
+    "body": [
+      "def main():",
+      "    pass",
+      "",
+      "",
+      "if __name__ == \"__main__\":",
+      "    main()",
+      ""
+    ]
+  },
+  "asyncio main": {
+    "prefix": ["if"],
+    "body": [
+      "import asyncio",
+      "import argparse",
+      "import sys",
+      "",
+      "",
+      "def get_parser() -> argparse.ArgumentParser:",
+      "    parser = argparse.ArgumentParser(description=\"TODO\")",
+      "    return parser",
+      "",
+      "",
+      "async def main(args: argparse.Namespace) -> int:",
+      "    return 0",
+      "",
+      "",
+      "if __name__ == \"__main__\":",
+      "    sys.exit(asyncio.run(main(get_parser().parse_args())))",
+      ""
+    ]
+  },
+  "pytest parametrize": {
+    "prefix": ["@pytest.mark"],
+    "body": ["@pytest.mark.parametrize(\"a, b\", [(1, 2)])"]
+  },
+  "pytest mark asyncio": {
+    "prefix": ["@pytest.mark"],
+    "body": ["@pytest.mark.asyncio"]
+  }
 }
