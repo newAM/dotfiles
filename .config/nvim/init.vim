@@ -64,6 +64,15 @@ let g:rustfmt_autosave = 1
 
 " YouCompleteMe settings
 let g:ycm_autoclose_preview_window_after_insertion = 1
+let g:ycm_language_server =
+\ [
+\   {
+\     'name': 'rust',
+\     'cmdline': ['rust-analyzer'],
+\     'filetypes': ['rust'],
+\     'project_root_files': ['Cargo.toml']
+\   }
+\ ]
 
 " theme
 silent! colorscheme monokai
