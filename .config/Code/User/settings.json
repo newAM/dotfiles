@@ -16,7 +16,8 @@
     "editor.formatOnSave": true
   },
   "[rust]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.rulers": [80, 100]
   },
   "[json]": {
     "editor.formatOnSave": true
