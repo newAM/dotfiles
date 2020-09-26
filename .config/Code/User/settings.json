@@ -16,8 +16,7 @@
     "editor.formatOnSave": true
   },
   "[rust]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "matklad.rust-analyzer"
+    "editor.formatOnSave": true
   },
   "[json]": {
     "editor.formatOnSave": true
