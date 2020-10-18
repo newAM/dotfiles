@@ -16,6 +16,7 @@
     "editor.formatOnSave": true
   },
   "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust",
     "editor.formatOnSave": true,
     "editor.rulers": [80, 100]
   },
