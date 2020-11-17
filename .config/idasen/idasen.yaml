@@ -1,3 +1,4 @@
 mac_address: F4:0C:40:0A:C7:99
-stand_height: 1.13
-sit_height: 0.74
+positions:
+  sit: 0.74
+  stand: 1.13
