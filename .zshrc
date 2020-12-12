@@ -119,4 +119,5 @@ alias vi='nvim'
 alias vim='nvim'
 alias vrc='nvim $HOME/.config/nvim/init.vim'
 alias vzrc='nvim $HOME/.zshrc'
+alias acast='asciinema'
 setopt complete_aliases
