@@ -16,7 +16,7 @@
     "editor.formatOnSave": true
   },
   "[rust]": {
-    "editor.defaultFormatter": "rust-lang.rust",
+    "editor.defaultFormatter": "matklad.rust-analyzer",
     "editor.formatOnSave": true,
     "editor.rulers": [80, 100]
   },
@@ -62,11 +62,18 @@
     "terminal.ansiBrightCyan": "#34e2e2",
     "terminal.ansiBrightWhite": "#eeeeec"
   },
-  "rust-analyzer.inlayHints.enable": false,
-  "rust-analyzer.lens.implementations": false,
-  "python.linting.flake8Args": ["--ignore=E203,W503"],
-  "rust-analyzer.lens.enable": false,
-  "rust-analyzer.inlayHints.parameterHints": false,
-  "rust-analyzer.lens.debug": false,
-  "rust-analyzer.inlayHints.chainingHints": false
+  "python.linting.flake8Args": [
+    "--ignore=E203,W503"
+  ],
+  "rust-analyzer.inlayHints.chainingHints": false,
+  "spellright.language": [
+    "english_american"
+  ],
+  "spellright.documentTypes": [
+    "markdown",
+    "latex",
+    "plaintext"
+  ],
+  "rust-analyzer.updates.askBeforeDownload": false,
+  "workbench.panel.defaultLocation": "right",
 }
