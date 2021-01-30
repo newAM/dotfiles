@@ -120,4 +120,5 @@ alias vim='nvim'
 alias vrc='nvim $HOME/.config/nvim/init.vim'
 alias vzrc='nvim $HOME/.zshrc'
 alias acast='asciinema'
+alias git-rm-merged='git branch --merged | egrep -v "(^\*|master|main|dev)" | xargs git branch -d'
 setopt complete_aliases
