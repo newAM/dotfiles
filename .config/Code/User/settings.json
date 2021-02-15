@@ -7,7 +7,6 @@
   "python.pythonPath": "/usr/bin/python3.8",
   "python.formatting.provider": "black",
   "editor.multiCursorModifier": "ctrlCmd",
-  "window.zoomLevel": 0,
   "editor.rulers": [80],
   "files.autoSave": "onFocusChange",
   "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
@@ -76,4 +75,6 @@
   ],
   "rust-analyzer.updates.askBeforeDownload": false,
   "workbench.panel.defaultLocation": "right",
+  "python.languageServer": "Pylance",
+  "rust-analyzer.cargo.allFeatures": true,
 }
