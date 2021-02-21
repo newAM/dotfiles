@@ -41,6 +41,7 @@ config push
 | dco       | `docker-compose`               |
 | dcps      | `docker-compose ps`            |
 | dcpull    | `docker-compose pull`          |
+| dcpush    | `docker-compose push`          |
 | dcr       | `docker-compose run`           |
 | dcrestart | `docker-compose restart`       |
 | dcrm      | `docker-compose rm`            |
