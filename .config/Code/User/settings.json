@@ -77,4 +77,11 @@
   "workbench.panel.defaultLocation": "right",
   "python.languageServer": "Pylance",
   "rust-analyzer.cargo.allFeatures": true,
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+  "python.showStartPage": false,
 }
