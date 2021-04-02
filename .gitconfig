@@ -17,3 +17,5 @@
   fop = fetch origin --prune
 [core]
   editor = nvim
+[init]
+  defaultBranch = main
