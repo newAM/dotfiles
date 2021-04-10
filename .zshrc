@@ -121,4 +121,5 @@ alias vzrc='nvim $HOME/.zshrc'
 alias acast='asciinema'
 alias git-rm-merged='git branch --merged | egrep -v "(^\*|master|main|dev)" | xargs git branch -d'
 alias dcpush='docker-compose push'
+alias hex="printf '0x%x\n'"
 setopt complete_aliases
