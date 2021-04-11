@@ -97,6 +97,9 @@ ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=8192
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
+# ripgrep configuration
+export RIPGREP_CONFIG_PATH="$HOME/.config/ripgrep/ripgreprc"
+
 # Preferred editor for local and remote sessions
 export EDITOR='nvim'
 
