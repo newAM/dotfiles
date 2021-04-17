@@ -38,6 +38,6 @@
   },
   {
     "key": "ctrl+shift+i",
-    "command": "editor.action.selectAllMatches"
+    "command": "editor.action.selectHighlights"
   }
 ]

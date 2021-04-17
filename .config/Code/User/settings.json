@@ -12,7 +12,8 @@
   "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
   "terminal.integrated.fontWeight": "600",
   "[jsonc]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[rust]": {
     "editor.defaultFormatter": "matklad.rust-analyzer",
@@ -20,7 +21,8 @@
     "editor.rulers": [80, 100]
   },
   "[json]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[javascript]": {
     "editor.formatOnSave": true,
@@ -34,15 +36,15 @@
   "[yaml]": {
     "editor.tabSize": 2
   },
-  "workbench.colorTheme": "Monokai Pro",
-  "workbench.iconTheme": "Monokai Pro Icons",
+  "workbench.colorTheme": "Monokai Vibrant Amped",
+  "workbench.iconTheme": "material-icon-theme",
   "terminal.integrated.shell.linux": "/usr/bin/zsh",
   "terminal.integrated.env.linux": {
     "SSH_CONNECTION": "1"
   },
   "terminal.integrated.copyOnSelection": true,
   "workbench.colorCustomizations": {
-    "terminal.forground": "#cbbfbf",
+    "terminal.foreground": "#fcfcfa",
     "terminal.background": "#262626",
     "terminal.ansiBlack": "#2e3436",
     "terminal.ansiRed": "#cc0000",
@@ -61,13 +63,9 @@
     "terminal.ansiBrightCyan": "#34e2e2",
     "terminal.ansiBrightWhite": "#eeeeec"
   },
-  "python.linting.flake8Args": [
-    "--ignore=E203,W503"
-  ],
+  "python.linting.flake8Args": ["--ignore=E203,W503"],
   "rust-analyzer.inlayHints.chainingHints": false,
-  "spellright.language": [
-    "english_american"
-  ],
+  "spellright.language": ["english_american"],
   "spellright.documentTypes": [
     "markdown",
     "latex",
@@ -84,4 +82,7 @@
     }
   ],
   "python.showStartPage": false,
+  "debug.allowBreakpointsEverywhere": true,
+  "gitlens.codeLens.enabled": false,
+  "editor.semanticHighlighting.enabled": true
 }
