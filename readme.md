@@ -5,7 +5,7 @@ Taken from this hacker news comment: [link](https://news.ycombinator.com/item?id
 ```bash
 git init --bare $HOME/.dotfiles
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-cofig remote add origin git@github.com:newAM/dotfiles.git
+config remote add origin git@github.com:newAM/dotfiles.git
 ```
 
 ## Replication
