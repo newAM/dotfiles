@@ -35,6 +35,9 @@
   "[yaml]": {
     "editor.tabSize": 2
   },
+  "[nix]": {
+    "editor.tabSize": 2
+  },
   "workbench.colorTheme": "Monokai Pro",
   "workbench.iconTheme": "Monokai Pro Icons",
   "terminal.integrated.profiles.linux": {
