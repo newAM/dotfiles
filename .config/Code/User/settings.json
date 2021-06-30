@@ -81,5 +81,4 @@
   "python.showStartPage": false,
   "debug.allowBreakpointsEverywhere": true,
   "gitlens.codeLens.enabled": false,
-  "editor.semanticHighlighting.enabled": true
 }
