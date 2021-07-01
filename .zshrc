@@ -22,6 +22,7 @@ set_alias() {
     alias git-rm-merged='git branch --merged | egrep -v "(^\*|master|main|dev)" | xargs git branch -d'
     alias dcpush='docker-compose push'
     alias hex="printf '0x%x\n'"
+    alias udevrst="sudo udevadm control --reload-rules && sudo udevadm trigger"
 }
 
 # let nixos manage the rest of the configuration
