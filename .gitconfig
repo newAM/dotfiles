@@ -21,3 +21,5 @@
   defaultBranch = main
 [pull]
   ff = only
+[advice]
+  detachedHead = false
