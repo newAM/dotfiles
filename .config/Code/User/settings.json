@@ -81,4 +81,5 @@
   "python.showStartPage": false,
   "debug.allowBreakpointsEverywhere": true,
   "gitlens.codeLens.enabled": false,
+  "window.titleBarStyle": "custom"
 }
