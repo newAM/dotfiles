@@ -12,7 +12,7 @@ config remote add origin git@github.com:newAM/dotfiles.git
 ```bash
 git clone --separate-git-dir=$HOME/.dotfiles https://github.com/newAM/dotfiles.git dotfiles-tmp
 rsync --recursive --verbose --exclude '.git' dotfiles-tmp/ $HOME/
-rm --recursive dotfiles-tmp
+rm -r dotfiles-tmp
 ```
 
 ## Configuration
