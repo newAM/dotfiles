@@ -21,7 +21,7 @@
     Alt + End
 "ha service call light.toggle --arguments entity_id=light.bedside_lamp"
     Alt + Home
-"ha service call light.lights_on"
+"ha service call script.lights_on"
     Alt + Prior
 "ha service call script.lights_off"
     Alt + Next
