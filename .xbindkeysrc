@@ -1,18 +1,19 @@
 "mosquitto_pub -h 10.0.0.4 -t /home/tv -m 1"
-  XF86HomePage
+    XF86HomePage
 "mosquitto_pub -h 10.0.0.4 -t /home/tv -m 0"
-  XF86Back
+    XF86Back
 "pacmd set-card-profile 0 output:iec958-stereo"
-  XF86Search
+    XF86Search
 "ha service call cover.open_cover --arguments entity_id=cover.left_window"
-  XF86Launch5
+    XF86Launch5
 "ha service call cover.open_cover --arguments entity_id=cover.middle_window"
-  XF86Launch6
+    XF86Launch6
 "ha service call cover.open_cover --arguments entity_id=cover.right_window"
-  XF86Launch7
+    XF86Launch7
 "ha service call cover.close_cover --arguments entity_id=cover.left_window"
-  XF86Launch8
+    XF86Launch8
 "ha service call cover.close_cover --arguments entity_id=cover.middle_window"
-  XF86Launch9
+    XF86Launch9
 "ha service call cover.close_cover --arguments entity_id=cover.right_window"
-  NoSymbol
+    m:0x0 + c:197
+    NoSymbol
