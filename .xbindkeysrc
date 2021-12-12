@@ -17,3 +17,11 @@
 "ha service call cover.close_cover --arguments entity_id=cover.right_window"
     m:0x0 + c:197
     NoSymbol
+"ha service call light.toggle --arguments entity_id=light.bedside_lamp"
+    Alt + End
+"ha service call light.toggle --arguments entity_id=light.bedside_lamp"
+    Alt + Home
+"ha service call light.lights_on"
+    Alt + Prior
+"ha service call script.lights_off"
+    Alt + Next
