@@ -1,6 +1,6 @@
 "mosquitto_pub -h 10.0.0.4 -t /home/tv -m 1"
-  Control+Shift + u
+  XF86HomePage
 "mosquitto_pub -h 10.0.0.4 -t /home/tv -m 0"
-  Control+Shift + d
+  XF86Back
 "pacmd set-card-profile 0 output:iec958-stereo"
-  Control+Shift + a
+  XF86Search
