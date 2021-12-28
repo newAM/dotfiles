@@ -1,6 +1,6 @@
-"mosquitto_pub -h 10.0.0.4 -t /home/tv -m 1"
+"ha service call script.tv_on"
     XF86HomePage
-"mosquitto_pub -h 10.0.0.4 -t /home/tv -m 0"
+"ha service call script.tv_off"
     XF86Back
 "pacmd set-card-profile 0 output:iec958-stereo"
     XF86Search
