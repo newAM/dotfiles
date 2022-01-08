@@ -18,10 +18,10 @@
     m:0x0 + c:197
     NoSymbol
 "ha service call light.toggle --arguments entity_id=light.bedside_lamp"
-    Alt + End
+    Shift + Right
 "ha service call light.toggle --arguments entity_id=light.bedside_lamp"
-    Alt + Home
+    Shift + Left
 "ha service call script.lights_on"
-    Alt + Prior
+    Shift + Up
 "ha service call script.lights_off"
-    Alt + Next
+    Shift + Down
