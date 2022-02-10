@@ -1,16 +1,26 @@
 {
-  "telemetry.enableTelemetry": false,
-  "telemetry.enableCrashReporter": false,
+  "telemetry.telemetryLevel": "off",
+  "workbench.enableExperiments": false,
+  "update.mode": "none",
+  "extensions.autoUpdate": false,
+
   "python.linting.pylintEnabled": false,
   "python.linting.flake8Enabled": true,
+  "python.linting.flake8Path": "/run/current-system/sw/bin/flake8",
   "python.linting.enabled": true,
   "python.formatting.provider": "black",
   "python.formatting.blackPath": "/run/current-system/sw/bin/black",
+  "python.linting.flake8Args": ["--ignore=E203,W503"],
+  "python.languageServer": "Jedi",
+
+  "rust-analyzer.inlayHints.chainingHints": false,
+  "rust-analyzer.updates.askBeforeDownload": false,
+  "rust-analyzer.cargo.allFeatures": true,
+
+  "files.autoSave": "onFocusChange",
+
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.rulers": [80],
-  "files.autoSave": "onFocusChange",
-  "terminal.integrated.fontFamily": "SauceCodePro Nerd Font Mono",
-  "terminal.integrated.fontWeight": "600",
   "[jsonc]": {
     "editor.formatOnSave": false,
     "editor.defaultFormatter": "vscode.json-language-features"
@@ -26,7 +36,6 @@
   },
   "[javascript]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[python]": {
     "editor.tabSize": 4,
@@ -39,15 +48,19 @@
   "[nix]": {
     "editor.tabSize": 2
   },
-  "workbench.colorTheme": "Monokai Pro",
-  "workbench.iconTheme": "Monokai Pro Icons",
+  "[markdown]": {
+    "editor.tabSize": 2
+  },
+
+  "terminal.integrated.fontFamily": "SauceCodePro Nerd Font Mono",
+  "terminal.integrated.fontWeight": "600",
+  "terminal.integrated.env.linux": {
+    "SSH_CONNECTION": "1"
+  },
   "terminal.integrated.profiles.linux": {
     "zsh": {
       "path": "zsh"
     }
-  },
-  "terminal.integrated.env.linux": {
-    "SSH_CONNECTION": "1"
   },
   "terminal.integrated.copyOnSelection": true,
   "workbench.colorCustomizations": {
@@ -70,21 +83,18 @@
     "terminal.ansiBrightCyan": "#34e2e2",
     "terminal.ansiBrightWhite": "#eeeeec"
   },
-  "python.linting.flake8Args": ["--ignore=E203,W503"],
-  "rust-analyzer.inlayHints.chainingHints": false,
-  "rust-analyzer.updates.askBeforeDownload": false,
-  "workbench.panel.defaultLocation": "right",
-  "python.languageServer": "Pylance",
-  "rust-analyzer.cargo.allFeatures": true,
+  "workbench.iconTheme": "Monokai Pro Icons",
+  "workbench.colorTheme": "Monokai Pro",
+
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
   },
-  "python.showStartPage": false,
+
   "debug.allowBreakpointsEverywhere": true,
   "gitlens.codeLens.enabled": false,
   "window.titleBarStyle": "custom",
   "notebook.cellToolbarLocation": {
     "default": "right",
     "jupyter-notebook": "left"
-  }
+  },
 }

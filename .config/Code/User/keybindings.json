@@ -1,14 +1,5 @@
 [
   {
-    "key": "f9",
-    "command": "-editor.debug.action.toggleBreakpoint",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "f9",
-    "command": "editor.action.sortLinesAscending"
-  },
-  {
     "key": "ctrl+shift+l",
     "command": "expandLineSelection"
   },
@@ -30,7 +21,7 @@
   },
   {
     "key": "ctrl+shift+y",
-    "command": "workbench.action.toggleMaximizedPanel"
+    "command": "workbench.action.terminal.toggleTerminal"
   },
   {
     "key": "ctrl+r",
