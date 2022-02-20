@@ -4,6 +4,7 @@
   "update.mode": "none",
   "extensions.autoUpdate": false,
 
+  "python.defaultInterpreterPath": "/run/current-system/sw/bin/python",
   "python.linting.pylintEnabled": false,
   "python.linting.flake8Enabled": true,
   "python.linting.flake8Path": "/run/current-system/sw/bin/flake8",
