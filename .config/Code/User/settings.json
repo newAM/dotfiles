@@ -98,4 +98,7 @@
     "default": "right",
     "jupyter-notebook": "left"
   },
+
+  "latex-workshop.view.pdf.viewer": "browser",
+  "latex-workshop.latex.autoBuild.run": "never",
 }
