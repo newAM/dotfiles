@@ -101,4 +101,5 @@
 
   "latex-workshop.view.pdf.viewer": "browser",
   "latex-workshop.latex.autoBuild.run": "never",
+  "workbench.editor.wrapTabs": true,
 }
