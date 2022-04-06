@@ -21,11 +21,7 @@
   "rust-analyzer.experimental.procAttrMacros": true,
   "rust-analyzer.hoverActions.references": true,
   "rust-analyzer.inlayHints.chainingHints": false,
-  "rust-analyzer.inlayHints.closureReturnTypeHints": true,
   "rust-analyzer.inlayHints.enable": true,
-  "rust-analyzer.inlayHints.lifetimeElisionHints": "always",
-  "rust-analyzer.inlayHints.lifetimeElisionHints.useParameterNames": true,
-  "rust-analyzer.inlayHints.reborrowHints": true,
   "rust-analyzer.lens.enumVariantReferences": true,
   "rust-analyzer.lens.methodReferences": true,
   "rust-analyzer.lens.references": true,
@@ -67,6 +63,8 @@
     "editor.tabSize": 2
   },
 
+  "terminal.integrated.gpuAcceleration": "on",
+  "terminal.integrated.minimumContrastRatio": 1,
   "terminal.integrated.fontFamily": "SauceCodePro Nerd Font Mono",
   "terminal.integrated.fontWeight": "600",
   "terminal.integrated.env.linux": {
