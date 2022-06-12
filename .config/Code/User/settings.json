@@ -3,6 +3,7 @@
   "workbench.enableExperiments": false,
   "update.mode": "none",
   "extensions.autoUpdate": false,
+  "extensions.ignoreRecommendations": true,
 
   "python.defaultInterpreterPath": "/run/current-system/sw/bin/python",
   "python.linting.pylintEnabled": false,
@@ -14,19 +15,14 @@
   "python.linting.flake8Args": ["--ignore=E203,W503"],
   "python.languageServer": "Jedi",
 
-  "rust-analyzer.cargo.allFeatures": true,
   "rust-analyzer.checkOnSave.command": "clippy",
   "rust-analyzer.completion.privateEditable.enable": true,
   "rust-analyzer.debug.openDebugPane": true,
-  "rust-analyzer.experimental.procAttrMacros": true,
-  "rust-analyzer.hoverActions.references": true,
-  "rust-analyzer.inlayHints.chainingHints": false,
-  "rust-analyzer.inlayHints.enable": true,
-  "rust-analyzer.lens.enumVariantReferences": true,
-  "rust-analyzer.lens.methodReferences": true,
-  "rust-analyzer.lens.references": true,
+  "rust-analyzer.hover.actions.references.enable": true,
+  "rust-analyzer.inlayHints.chainingHints.enable": true,
+  "rust-analyzer.procMacro.attributes.enable": true,
   "rust-analyzer.procMacro.enable": true,
-  "rust-analyzer.rustfmt.enableRangeFormatting": true,
+  "rust-analyzer.rustfmt.rangeFormatting.enable": true,
 
   "files.autoSave": "onFocusChange",
 
@@ -37,7 +33,7 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[rust]": {
-    "editor.defaultFormatter": "matklad.rust-analyzer",
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
     "editor.formatOnSave": true,
     "editor.rulers": [80, 100]
   },
@@ -67,6 +63,7 @@
   "terminal.integrated.minimumContrastRatio": 1,
   "terminal.integrated.fontFamily": "SauceCodePro Nerd Font Mono",
   "terminal.integrated.fontWeight": "600",
+  "terminal.integrated.scrollback": 10000,
   "terminal.integrated.env.linux": {
     "SSH_CONNECTION": "1"
   },
@@ -96,8 +93,12 @@
     "terminal.ansiBrightCyan": "#34e2e2",
     "terminal.ansiBrightWhite": "#eeeeec"
   },
-  "workbench.iconTheme": "Monokai Pro Icons",
-  "workbench.colorTheme": "Monokai Pro",
+
+  "editor.semanticHighlighting.enabled": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Sonokai Shusia",
+
+  "workbench.editor.wrapTabs": true,
 
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
@@ -113,5 +114,4 @@
 
   "latex-workshop.view.pdf.viewer": "browser",
   "latex-workshop.latex.autoBuild.run": "never",
-  "workbench.editor.wrapTabs": true,
 }
