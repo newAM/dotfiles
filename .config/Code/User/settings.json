@@ -72,6 +72,7 @@
       "path": "zsh"
     }
   },
+  "terminal.integrated.shellIntegration.enabled": false,
   "terminal.integrated.copyOnSelection": true,
   "workbench.colorCustomizations": {
     "terminal.foreground": "#fcfcfa",
@@ -94,9 +95,20 @@
     "terminal.ansiBrightWhite": "#eeeeec"
   },
 
-  "editor.semanticHighlighting.enabled": true,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Sonokai Shusia",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.tokenColorCustomizations": {
+    "[Sonokai Shusia]": {
+      "textMateRules": [{
+        "name": "Underline",
+        "scope": "markup.underline",
+        "settings": {
+          "fontStyle": ""
+        }
+      }]
+    }
+  },
 
   "workbench.editor.wrapTabs": true,
 
