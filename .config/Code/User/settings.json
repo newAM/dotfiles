@@ -24,6 +24,16 @@
   "rust-analyzer.procMacro.enable": true,
   "rust-analyzer.rustfmt.rangeFormatting.enable": true,
 
+  "nix.enableLanguageServer": true,
+  "nix.serverPath": "nil",
+  "nix.serverSettings": {
+    "nil": {
+      "formatting": {
+        "command": ["alejandra"]
+      }
+    }
+  },
+
   "files.autoSave": "onFocusChange",
 
   "editor.multiCursorModifier": "ctrlCmd",
@@ -53,13 +63,12 @@
     "editor.tabSize": 2
   },
   "[nix]": {
-    "editor.defaultFormatter": "kamadorueda.alejandra",
+    "editor.defaultFormatter": "jnoortheen.nix-ide",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.formatOnType": false,
     "editor.tabSize": 2
   },
-  "alejandra.program": "alejandra",
   "[markdown]": {
     "editor.tabSize": 2
   },
@@ -131,4 +140,5 @@
 
   "latex-workshop.view.pdf.viewer": "browser",
   "latex-workshop.latex.autoBuild.run": "never",
+  "workbench.activityBar.visible": false,
 }
