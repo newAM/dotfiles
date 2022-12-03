@@ -52,7 +52,7 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[javascript]": {
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": true
   },
   "[python]": {
     "editor.tabSize": 4,
@@ -139,6 +139,5 @@
   },
 
   "latex-workshop.view.pdf.viewer": "browser",
-  "latex-workshop.latex.autoBuild.run": "never",
-  "workbench.activityBar.visible": false,
+  "latex-workshop.latex.autoBuild.run": "never"
 }
